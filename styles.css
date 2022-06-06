@@ -1,0 +1,158 @@
+body {
+  position: relative;
+  color: white;
+  background-image: url("images/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  height: 900px;
+  width: 1440px;
+}
+
+a {
+  opacity: 1.0;
+}
+
+h1 {
+  position: absolute;
+  margin-top: 24px;
+  height: 172px;
+  left: 0;
+  right: 1.11%;
+  top: calc(50% - 172px/2 - 47px);
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 172px;
+  color: #FFFFFF;
+}
+
+h2 {
+  position: absolute;
+  height: 34px;
+  left: 0.11%;
+  top: calc(50% - 34px/2 - 174px);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #D0D6F9;
+}
+
+.menu {
+  position: absolute;
+  height: 96px;
+  width: 1385px;
+  left: 55px;
+  top: 40px;
+}
+
+.menu_options {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  background-color: #FFFFFF;
+  width: 830px;
+  height: 96px;
+  opacity: 0.04;
+}
+.buttons{
+  position: absolute;
+  right: 0;
+  opacity: 1.0;
+  margin-left: 123px;
+  margin-top: 39px;
+  margin-right: 165px;
+}
+.logo {
+  position: absolute;
+  top: 24px;
+  width: 48px;
+  height: 48px;
+}
+
+.menu_line {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  right: 800px;
+  top: 47px;
+  margin: 0;
+  background: #FFFFFF;
+  opacity: 0.25;
+}
+
+.intro {
+  width: 450px;
+  height: 382px;
+  position: absolute;
+  bottom: 131px;
+  left: 165px;
+}
+
+.intro_text {
+  position: absolute;
+  height: 128px;
+  left: 0.11%;
+  right: 1.22%;
+  top: calc(50% - 128px/2 + 127px);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.btn {
+  position: absolute;
+  right: 165px;
+  bottom: 131px;
+  border-radius: 137px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0B0D17;
+  background: #FFFFFF;
+  padding: 119px 64px 118px 62px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f6f2fc;
+  text-decoration: none;
+}
+.btn1 {
+  border: none;
+  margin-right: 42px;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  background: none;
+  padding: 39px 0 38px 0;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: none;
+  border-bottom: solid #ffffff 3px;
+  text-decoration: none;
+}
+.bold_text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
