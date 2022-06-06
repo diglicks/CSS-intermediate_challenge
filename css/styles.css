@@ -1,6 +1,7 @@
 body {
   position: relative;
   color: white;
+  background-color: darkblue;
   background-image: url("images/background-home-desktop.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
